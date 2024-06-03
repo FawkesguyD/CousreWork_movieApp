@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "942002224772",
+    "project_id": "movies-fb8e1",
+    "storage_bucket": "movies-fb8e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942002224772:android:1250619712fd8517790cd1",
+        "android_client_info": {
+          "package_name": "com.gnitetskiy.coursework_movies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_YPVERL74VGEaqLOIgWQ-eeX4kACymnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
