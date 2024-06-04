@@ -51,7 +51,6 @@ public class RegisterActivity extends AppCompatActivity {
                 String email = addEmail.getText().toString();
                 String password = addPassword.getText().toString();
                 String confirm = addConfirm.getText().toString();
-                Database db = new Database(getApplicationContext(), "users",null,1);
                 if (email.isEmpty() || password.isEmpty() || confirm.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "fill all fields", Toast.LENGTH_SHORT).show();
                 } else {

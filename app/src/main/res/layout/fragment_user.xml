@@ -1,34 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background"
+    tools:context=".UserFragment">
 
-    <Button
-        android:id="@+id/signOutButton"
-        android:layout_width="416dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="3dp"
-        android:text="Sign out" />
-
-    <TextView
-        android:id="@+id/displayUser"
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/displayEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="0dp"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textSize="24dp" />
+        android:text="Email"
+        android:textSize="18sp"
+        android:textColor="@color/textPrimary"
+        android:padding="8dp" />
 
-</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/displayPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="18sp"
+            android:textColor="@color/textPrimary"
+            android:layout_alignParentStart="true"
+            android:padding="8dp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/updatePasswordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Update Password"
+        android:textColor="@color/buttonSecondary"
+        android:backgroundTint="@color/button"
+        style="@style/Widget.Material3.Button"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signOutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Sign Out"
+        android:textColor="@color/buttonSecondary"
+        android:backgroundTint="@color/button"
+        style="@style/Widget.Material3.Button"/>
+
+</LinearLayout>

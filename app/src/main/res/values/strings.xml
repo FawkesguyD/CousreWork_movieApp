@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">CourseWork_movies</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="movie_status_array">
+        <item>Want to Watch</item>
+        <item>Watched</item>
+    </string-array>
+
 </resources>

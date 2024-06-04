@@ -1,9 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.CourseWork_movies" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- Base application theme -->
+    <style name="Theme.MyApp" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#84a98c</item> <!-- Синий цвет -->
+        <item name="colorPrimaryVariant">#84a98c</item>
+        <item name="colorSecondary">#52796f</item>
+        <item name="android:colorBackground">#354f52</item>
+        <item name="android:statusBarColor">#84a98c</item> <!-- Синий цвет -->
+        <item name="android:navigationBarColor">#2f3e46</item>
+        <item name="android:textColorPrimary">#2f3e46</item>
     </style>
-
-    <style name="Theme.CourseWork_movies" parent="Base.Theme.CourseWork_movies" />
 </resources>
